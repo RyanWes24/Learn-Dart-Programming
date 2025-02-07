@@ -26,7 +26,7 @@
 
 **[Chapter (2)](https://github.com/aungswephyo/Dart-Learning-Flutter-/tree/main/Chapter%202) - အခြေခံ Syntax နဲ့ Data Types**
 
-- **[Lesson 1: Variables (ပြောင်းလဲနိုင်သော တန်ဖိုးများ) နဲ့ Data Types (အမျိုးအစားများ)](https://github.com/aungswephyo/Dart-Learning-Flutter-/blob/main/Chapter%202/Lesson%201.md)**
+- **[Lesson 1: Variables (ပြောင်းလဲနိုင်သော တန်ဖိုးများ) နဲ့ Data Types (အမျိုးအစားများ)](https://github.com/RyanWes24/Learn-Dart-Programming/blob/main/Chapter%202/Lesson%201.md)**
     - Variables တွေကို ဘယ်လို Declare လုပ်မလဲ? ( `var`, `int`, `double`, `String`, `bool`, `dynamic` )
     - Data Types အမျိုးမျိုးအကြောင်း အသေးစိတ်ရှင်းပြခြင်း (Numbers, Strings, Booleans, Lists, Sets, Maps)
     - Type Inference (Dart က Data Type ကို အလိုအလျောက် ခန့်မှန်းခြင်း)
