@@ -3,7 +3,7 @@
 <aside>
 💡
 
-**[Chapter (1)]() - Dart Programming မိတ်ဆက်**
+**[Chapter (1)](https://github.com/RyanWes24/Learn-Dart-Programming/tree/main/Chapter%201) - Dart Programming မိတ်ဆက်**
 
 - **[Lesson 1: Dart ဆိုတာဘာလဲ? ဘာကြောင့် Flutter အတွက်လဲ?](https://github.com/RyanWes24/Learn-Dart-Programming/blob/main/Chapter%201/Lesson%201.md)**
     - Dart ရဲ့သမိုင်းကြောင်းနဲ့ အဓိပ္ပါယ်ကို ရှင်းပြခြင်း
