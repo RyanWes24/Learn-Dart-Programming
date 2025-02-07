@@ -10,7 +10,7 @@
     - Flutter Framework မှာ Dart ကို ဘာကြောင့်အသုံးပြုရတဲ့ အကြောင်းအရင်း
     - Dart ရဲ့ အားသာချက်၊ အားနည်းချက်များကို နှိုင်းယှဉ်ခြင်း
     
-- **[Lesson 2: Dart Development Environment (Dev Env) တည်ဆောက်ခြင်း](https://github.com/aungswephyo/Dart-Learning-Flutter-/blob/main/Chapter%201%20/Lesson%202.md)**
+- **[Lesson 2: Dart Development Environment (Dev Env) တည်ဆောက်ခြင်း]( https://github.com/RyanWes24/Learn-Dart-Programming/blob/main/Chapter%201/Lesson%202.md )**
     - Dart SDK ကို ဘယ်လို Download လုပ်ပြီး Install လုပ်မလဲ?
     - Code Editor ရွေးချယ်ခြင်း (VS Code, IntelliJ IDEA စတာတွေအကြောင်း)
     - Dart Extension တွေကို Editor မှာ ဘယ်လို Install လုပ်မလဲ?
