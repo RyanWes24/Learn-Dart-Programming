@@ -230,4 +230,4 @@ void main() {
 
 ဒီ Lesson မှာတော့ Dart Programming မှာ အသုံးပြုတဲ့ Operators အမျိုးမျိုး (Arithmetic Operators, Assignment Operators, Comparison Operators, Logical Operators) တွေကို အသေးစိတ် လေ့လာခဲ့ပြီးပါပြီ။ Operators တွေဟာ Programming မှာ တွက်ချက်မှုတွေ လုပ်ဖို့၊ တန်ဖိုးတွေ သတ်မှတ်ဖို့၊ နှိုင်းယှဉ်မှုတွေ လုပ်ဖို့ စတဲ့ အရေးကြီးတဲ့ လုပ်ဆောင်ချက်တွေကို လုပ်ဆောင်ပေးပါတယ်။
 
-Lesson 2 မှာ မရှင်းလင်းတာ၊ နားမလည်တာများ ရှိပါသလား?  ဒါမှမဟုတ် နောက် Lesson 3 ကို ဆက်သွားချင်ပါသလား?
+
