@@ -16,7 +16,7 @@
     - Dart Extension တွေကို Editor မှာ ဘယ်လို Install လုပ်မလဲ?
     - Dart Project တစ်ခုကို ဘယ်လို စတင်တည်ဆောက်မလဲ?
     
-- **[Lesson 3: 'Hello, World!' Program နဲ့ ပထမဦးဆုံး Dart Code](https://github.com/aungswephyo/Dart-Learning-Flutter-/blob/main/Chapter%201%20/Lesson%203.md)**
+- **[Lesson 3: 'Hello, World!' Program နဲ့ ပထမဦးဆုံး Dart Code](https://github.com/RyanWes24/Learn-Dart-Programming/blob/main/Chapter%201/Lesson%203.md)**
     - `main()` function အကြောင်းနဲ့ Dart Program ရဲ့ အခြေခံ Structure
     - `print()` function ကို အသုံးပြုပြီး စာသား Display လုပ်ခြင်း
     - Dart Code ကို Run ကြည့်ခြင်း (Command Line နဲ့ Editor ကို အသုံးပြုပြီး)
