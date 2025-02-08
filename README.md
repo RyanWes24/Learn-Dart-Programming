@@ -1,9 +1,9 @@
 ## **[Dart Programming သင်ခန်းစာများ](https://github.com/RyanWes24/Learn-Dart-Programming)**
 -------------------------------------
 
-![Gif](.assets/images/download.gif)
-<aside>
 
+<aside>
+![Gif](.assets/images/download.gif)
 💡
 
 **[Chapter (1)](https://github.com/RyanWes24/Learn-Dart-Programming/tree/main/Chapter%201) - Dart Programming မိတ်ဆက်**
