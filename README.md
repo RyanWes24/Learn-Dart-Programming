@@ -1,7 +1,7 @@
 ## **[Dart Programming သင်ခန်းစာများ](https://github.com/RyanWes24/Learn-Dart-Programming)**
 -------------------------------------
 <aside>
-    ![image](https://github.com/user-attachments/assets/bd025220-1e67-4527-9f2d-02c31a119d09)
+    ![image](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3l3MXRnOWZ0MXc1Z2w2OGNkY2V4NWV0c2Vob3JmOXF3eTl5eHl3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPEqDGUULpEU0aQ/giphy.gif)
 
 💡
 
