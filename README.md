@@ -31,7 +31,7 @@
     - Data Types အမျိုးမျိုးအကြောင်း အသေးစိတ်ရှင်းပြခြင်း (Numbers, Strings, Booleans, Lists, Sets, Maps)
     - Type Inference (Dart က Data Type ကို အလိုအလျောက် ခန့်မှန်းခြင်း)
     
-- **[Lesson 2: Operators (သင်္ကေတများ) အမျိုးမျိုး]([https://github.com/aungswephyo/Dart-Learning-Flutter-/blob/main/Chapter%202/Lesson%202.md](https://github.com/RyanWes24/Learn-Dart-Programming/blob/main/Chapter%202/Lesson%202.md))**
+- **[Lesson 2: Operators (သင်္ကေတများ) အမျိုးမျိုး](https://github.com/RyanWes24/Learn-Dart-Programming/blob/main/Chapter%202/Lesson%202.md)**
     - Arithmetic Operators (သင်္ချာ သင်္ကေတများ: `+`, ``, ``, `/`, `%`, `++`, `-`)
     - Assignment Operators (တန်ဖိုးသတ်မှတ် သင်္ကေတများ: `=`, `+=`, `=`, `=`, `/=`)
     - Comparison Operators (နှိုင်းယှဉ် သင်္ကေတများ: `==`, `!=`, `>`, `<`, `>=`, `<=`)
