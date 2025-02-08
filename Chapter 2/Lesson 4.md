@@ -64,7 +64,9 @@ void main() {
 **`for` Loop Flowchart (လုပ်ဆောင်ပုံ အဆင့်ဆင့် ပုံ):**
 
 [Image of Flowchart of for loop]
-![image](https://github.com/user-attachments/assets/fdca86d7-36a9-4301-aa85-fb8f0ddc3117)
+![image](https://github.com/user-attachments/assets/52a286c0-9b29-49d3-87c8-9e8556cae72f)
+
+
 
 
 
