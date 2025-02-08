@@ -63,7 +63,8 @@ void main() {
 
 **`for` Loop Flowchart (လုပ်ဆောင်ပုံ အဆင့်ဆင့် ပုံ):**
 
-[Image of Flowchart of for loop]
+[Image of Flowchart of for loop](![image](https://github.com/user-attachments/assets/718590cf-9dd8-43f7-8615-eb32e350810f)
+)
 
 **မှတ်သားရန်:** `for` Loop ဟာ အကြိမ်ရေ ရေတွက်ပြီး ထပ်ခါထပ်ခါ လုပ်ဆောင်စေချင်တဲ့ Code တွေအတွက် သင့်တော်ပါတယ်။ List ထဲက Data တွေကို အစဉ်လိုက် ထုတ်ယူဖို့၊ Table ထဲက Row တွေကို အစဉ်လိုက် ဖတ်ရှုဖို့ စတဲ့ အခြေအနေမျိုးတွေမှာ `for` Loop ကို အသုံးများပါတယ်။
 
