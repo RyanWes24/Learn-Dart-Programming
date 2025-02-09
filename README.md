@@ -59,18 +59,25 @@
 
 **Chapter (3) - Functions များ**
 
-- **Lesson 1: Functions တွေကို Define လုပ်ခြင်း**
-    - Function ရဲ့ Syntax (Return Type, Function Name, Parameters, Body)
-    - Parameters အမျိုးမျိုး (Positional Parameters, Named Parameters, Optional Parameters)
-    - Return Type သတ်မှတ်ခြင်း ( `void` function အပါအဝင်)
-- **Lesson 2: Parameters နဲ့ Return Values**
-    - Functions တွေဆီကို Data တွေကို Parameters အနေနဲ့ ပို့ပေးခြင်း
-    - Functions တွေကနေ တန်ဖိုးတွေကို Return Values အနေနဲ့ ပြန်ပို့ခြင်း
-    - Parameter Default Values တွေကို သတ်မှတ်ခြင်း
-- **Lesson 3: Anonymous Functions (Lambda Functions)**
-    - Anonymous Functions ရဲ့ အဓိပ္ပါယ်နဲ့ အသုံးပြုပုံ
-    - Anonymous Functions တွေကို Variable ထဲမှာ သိမ်းထားခြင်း
-    - Higher-Order Functions တွေမှာ Anonymous Functions တွေကို အသုံးပြုခြင်း (e.g., `map`, `forEach`, `where`)
+ဟုတ်ကဲ့ပါ ဒါဆိုရင် အခု Chapter 3 ကို ဆက်သွားလိုက်ကြရအောင်။ Chapter 3 မှာတော့ Functions အကြောင်းကို အသေးစိတ် လေ့လာသွားကြပါမယ်။
+
+---
+
+**Chapter 3: Functions (လုပ်ဆောင်ချက်များ)**
+
+
+ဒီ Chapter မှာတော့ Dart Programming မှာ Code တွေကို Structure ကျအောင်၊ စနစ်တကျ ရေးသားနိုင်အောင် ကူညီပေးတဲ့ **Functions** အကြောင်းကို အသေးစိတ် လေ့လာသွားကြပါမယ်။
+Functions တွေဟာ Programming ရဲ့ အခြေခံ အုတ်မြစ်တွေထဲက တစ်ခုဖြစ်ပြီး၊ Program တွေကို Modularity ရှိအောင်၊ ပြန်လည် အသုံးပြုနိုင်အောင် တည်ဆောက်ရာမှာ မရှိမဖြစ် လိုအပ်ပါတယ်။
+
+**ဒီ Chapter မှာ လေ့လာရမယ့် အပိုင်းတွေ**
+
+*   **Lesson 1: Functions ဆိုတာ ဘာလဲ? (What are Functions?)**
+*   **Lesson 2: Function Declaration (Function ကို Declare လုပ်ခြင်း)**
+*   **Lesson 3: Function Parameters (Function ကို Data ပေးပို့ခြင်း)**
+*   **Lesson 4: Function Return Values (Function က Data ပြန်ပို့ခြင်း)**
+*   **Lesson 5: Optional Parameters (Optional Data များ ပေးပို့ခြင်း)**
+*   **Lesson 6: Named Parameters (နာမည်နဲ့ Data ပေးပို့ခြင်း)**
+*   **Lesson 7: Anonymous Functions (နာမည်မရှိသော Functions)**
 
 ---
 
