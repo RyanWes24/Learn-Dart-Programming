@@ -60,6 +60,12 @@
 **[Chapter (3) - Functions (လုပ်ဆောင်ချက်များ)](https://github.com/RyanWes24/Learn-Dart-Programming/tree/main/Chapter%203)**
 
 *   [Lesson 1: Functions ဆိုတာ ဘာလဲ? (What are Functions?)](https://github.com/RyanWes24/Learn-Dart-Programming/blob/main/Chapter%203/Lesson%201.md)
+*   ဒီ Lesson မှာ လေ့လာရမယ့်အချက်တွေ
+    - Functions ဆိုတာ ဘာလဲ? (What are Functions?)
+    - Functions တွေကို ဘာကြောင့် အသုံးပြုရတာလဲ? (Why use Functions?)
+    - Functions ရဲ့ အားသာချက်များ (Advantages of Functions)    
+
+
 *   Lesson 2: Function Declaration (Function ကို Declare လုပ်ခြင်း)
 *   Lesson 3: Function Parameters (Function ကို Data ပေးပို့ခြင်း)
 *   Lesson 4: Function Return Values (Function က Data ပြန်ပို့ခြင်း)
