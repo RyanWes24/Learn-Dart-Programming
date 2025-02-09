@@ -57,75 +57,79 @@
     ---
     
 
-**Chapter (3) - Function များ**
+**Chapter (3) - Functions (လုပ်ဆောင်ချက်များ)**
 
-- **Lesson 1: Functions တွေကို Define လုပ်ခြင်း**
-    - Function ရဲ့ Syntax (Return Type, Function Name, Parameters, Body)
-    - Parameters အမျိုးမျိုး (Positional Parameters, Named Parameters, Optional Parameters)
-    - Return Type သတ်မှတ်ခြင်း ( `void` function အပါအဝင်)
-- **Lesson 2: Parameters နဲ့ Return Values**
-    - Functions တွေဆီကို Data တွေကို Parameters အနေနဲ့ ပို့ပေးခြင်း
-    - Functions တွေကနေ တန်ဖိုးတွေကို Return Values အနေနဲ့ ပြန်ပို့ခြင်း
-    - Parameter Default Values တွေကို သတ်မှတ်ခြင်း
-- **Lesson 3: Anonymous Functions (Lambda Functions)**
-    - Anonymous Functions ရဲ့ အဓိပ္ပါယ်နဲ့ အသုံးပြုပုံ
-    - Anonymous Functions တွေကို Variable ထဲမှာ သိမ်းထားခြင်း
-    - Higher-Order Functions တွေမှာ Anonymous Functions တွေကို အသုံးပြုခြင်း (e.g., `map`, `forEach`, `where`)
----
+*   Lesson 1: Functions ဆိုတာ ဘာလဲ? (What are Functions?)
+*   Lesson 2: Function Declaration (Function ကို Declare လုပ်ခြင်း)
+*   Lesson 3: Function Parameters (Function ကို Data ပေးပို့ခြင်း)
+*   Lesson 4: Function Return Values (Function က Data ပြန်ပို့ခြင်း)
+*   Lesson 5: Optional Parameters (Optional Data များ ပေးပို့ခြင်း)
+*   Lesson 6: Named Parameters (နာမည်နဲ့ Data ပေးပို့ခြင်း)
+*   Lesson 7: Anonymous Functions (နာမည်မရှိသော Functions)
 
 **Chapter (4) - Object-Oriented Programming (OOP) အခြေခံ**
 
-- **Lesson 1: Classes နဲ့ Objects**
-    - Class ဆိုတာ ဘာလဲ? Object ဆိုတာ ဘာလဲ? နှိုင်းယှဉ်ရှင်းပြခြင်း
-    - Class ကို ဘယ်လို Define လုပ်မလဲ? (Properties/Fields နဲ့ Methods)
-    - Object တွေကို Class ကနေ ဘယ်လို Create လုပ်မလဲ? (Constructors အသုံးပြုခြင်း)
-    - Object Properties တွေကို Access လုပ်ခြင်းနဲ့ Methods တွေကို Call လုပ်ခြင်း
-- **Lesson 2: Constructors အမျိုးမျိုး**
-    - Default Constructor (Parameters မပါတဲ့ Constructor)
-    - Parameterized Constructors (Parameters ပါတဲ့ Constructor)
-    - Named Constructors (နာမည်ပေးထားတဲ့ Constructor)
-    - Constructor Chaining (Constructor တစ်ခုကနေ နောက်တစ်ခုကို ခေါ်ယူခြင်း)
-- **Lesson 3: Inheritance (အမွေဆက်ခံခြင်း)**
-    - Inheritance ရဲ့ အဓိပ္ပါယ်နဲ့ ဘာကြောင့်အသုံးပြုလဲ?
-    - Parent Class (Superclass) နဲ့ Child Class (Subclass)
-    - `extends` keyword ကို အသုံးပြုပြီး Inheritance ပြုလုပ်ခြင်း
-    - Method Overriding (Child Class က Parent Class ရဲ့ Method ကို ပြန်လည်ရေးသားခြင်း)
+*   Lesson 1: Object-Oriented Programming ဆိုတာ ဘာလဲ? (What is OOP?)
+*   Lesson 2: Classes နဲ့ Objects (ပုံစံခွက် နဲ့ ပုံစံတူများ)
+*   Lesson 3: Constructors (Object ကို စတင် တည်ဆောက်ခြင်း)
+*   Lesson 4: Methods (Object ရဲ့ လုပ်ဆောင်ချက်များ)
+*   Lesson 5: Inheritance (အမွေဆက်ခံခြင်း)
+*   Lesson 6: Polymorphism (ပုံသဏ္ဍာန် အမျိုးမျိုး ကွဲပြားခြင်း)
 
----
+**Chapter (5) - Data Structures (Data တည်ဆောက်ပုံများ)**
 
-**Chapter (5) - Collections များ**
+*   Lesson 1: List (စာရင်း)
+*   Lesson 2: Set (အစုအဝေး)
+*   Lesson 3: Map (မြေပုံ)
+*   Lesson 4: List, Set, Map ရဲ့ အသုံးပြုပုံ နှိုင်းယှဉ်ခြင်း
+*   Lesson 5: Advanced List Operations (List ကို အဆင့်မြင့် သုံးစွဲခြင်း)
+*   Lesson 6: Generics (အမျိုးအစား အထွေထွေ သုံးစွဲနိုင်ခြင်း)
 
-- **Lesson 1: Lists (စာရင်းများ)**
-    - List ရဲ့ အဓိပ္ပါယ်နဲ့ ဘယ်လို Declare လုပ်မလဲ?
-    - List ထဲကို Data ထည့်ခြင်း၊ ထုတ်ခြင်း၊ ပြင်ဆင်ခြင်း
-    - List Properties နဲ့ Methods တွေကို အသုံးပြုခြင်း (e.g., `length`, `add`, `remove`, `insert`, `forEach`, `map`, `where`)
-- **Lesson 2: Sets (အစုအဝေးများ)**
-    - Set ရဲ့ အဓိပ္ပါယ်နဲ့ ဘယ်လို Declare လုပ်မလဲ?
-    - Set ထဲကို Data ထည့်ခြင်း၊ ထုတ်ခြင်း
-    - Set Properties နဲ့ Methods တွေကို အသုံးပြုခြင်း (e.g., `add`, `remove`, `contains`, `union`, `intersection`)
-- **Lesson 3: Maps (မြေပုံများ)**
-    - Map ရဲ့ အဓိပ္ပါယ်နဲ့ ဘယ်လို Declare လုပ်မလဲ? (Key-Value Pairs)
-    - Map ထဲကို Data ထည့်ခြင်း၊ ထုတ်ခြင်း၊ ပြင်ဆင်ခြင်း
-    - Map Properties နဲ့ Methods တွေကို အသုံးပြုခြင်း (e.g., `length`, `keys`, `values`, `containsKey`, `containsValue`)
+**Chapter (6) - Asynchronous Programming (အချိန်မတူ လုပ်ဆောင်ခြင်း)**
 
----
+*   Lesson 1: Asynchronous Programming ဆိုတာ ဘာလဲ? (What is Asynchronous Programming?)
+*   Lesson 2: `async` နဲ့ `await` Keywords
+*   Lesson 3: Futures (အနာဂတ် ရလဒ်များ)
+*   Lesson 4: Streams (စီးကြောင်း Data များ)
+*   Lesson 5: Error Handling (Error ကို စီမံခန့်ခွဲခြင်း)
 
-**Chapter (6) - Asynchronous Programming နဲ့ Exception Handling**
+**Chapter (7) - Libraries နဲ့ Packages (ပြင်ပ အထောက်အကူပြု Libraries များ)**
 
-- **Lesson 1: Asynchronous Programming - Futures**
-    - Asynchronous Programming ရဲ့ အဓိပ္ပါယ်နဲ့ ဘာကြောင့် Flutter မှာ အရေးကြီးလဲ?
-    - `Future` Object ဆိုတာဘာလဲ?
-    - `Future` Object ကို ဘယ်လို Create လုပ်မလဲ? (`Future.delayed`, `Future.value`, `Future.error`)
-    - `Future` Object ရဲ့ Result ကို ဘယ်လို ရယူမလဲ? (`then`, `catchError`)
-- **Lesson 2: `async` နဲ့ `await` Keywords**
-    - `async` function ဆိုတာ ဘာလဲ?
-    - `await` keyword ကို ဘယ်လို အသုံးပြုမလဲ?
-    - `async` နဲ့ `await` ကို အသုံးပြုပြီး Asynchronous Code ကို ပိုမိုလွယ်ကူစွာ ရေးသားခြင်း
-- **Lesson 3: Exception Handling - `try`, `catch`, `finally`**
-    - Exceptions (Error) ဆိုတာ ဘာလဲ?
-    - `try` block နဲ့ `catch` block ကို အသုံးပြုပြီး Error တွေကို ကိုင်တွယ်ခြင်း
-    - `finally` block ကို အသုံးပြုခြင်း (Error ဖြစ်ဖြစ်၊ မဖြစ်ဖြစ် နောက်ဆုံး လုပ်ဆောင်စေချင်တဲ့ Code)
-    - Custom Exceptions တွေကို Create လုပ်ခြင်း
+*   Lesson 1: Libraries နဲ့ Packages ဆိုတာ ဘာလဲ? (What are Libraries and Packages?)
+*   Lesson 2: Dart Standard Libraries (Dart ရဲ့ မူရင်း Libraries များ)
+*   Lesson 3: Pub Package Manager (Package များကို စီမံခန့်ခွဲခြင်း)
+*   Lesson 4: Third-Party Packages (ပြင်ပ Libraries များကို အသုံးပြုခြင်း)
+
+**Chapter (8) - Testing (Code စမ်းသပ်ခြင်း)**
+
+*   Lesson 1: Testing ဆိုတာ ဘာလဲ? ဘာကြောင့် Testing လုပ်ရတာလဲ? (What is Testing?)
+*   Lesson 2: Unit Testing (အပိုင်းလိုက် စမ်းသပ်ခြင်း)
+*   Lesson 3: Widget Testing (UI အစိတ်အပိုင်း စမ်းသပ်ခြင်း - Flutter အတွက်)
+*   Lesson 4: Integration Testing (ပေါင်းစပ် စမ်းသပ်ခြင်း)
+
+**Chapter (9) - State Management (Data အခြေအနေ စီမံခန့်ခွဲခြင်း - Flutter အတွက်)**
+
+*   Lesson 1: State Management ဆိုတာ ဘာလဲ? ဘာကြောင့် State Management လိုအပ်တာလဲ? (What is State Management?)
+*   Lesson 2: StatefulWidget နဲ့ StatelessWidget (State ရှိ/မရှိ Widget များ)
+*   Lesson 3: setState() (Widget ကို ပြန်ဆွဲခိုင်းခြင်း)
+*   Lesson 4: Provider Package (Provider Library ကို အသုံးပြုခြင်း)
+*   Lesson 5: BLoC/Cubit Pattern (BLoC/Cubit Design Pattern ကို အသုံးပြုခြင်း)
+
+**Chapter (10) - UI Design နဲ့ Flutter Widgets (Flutter UI တည်ဆောက်ခြင်း)**
+
+*   Lesson 1: Flutter Widgets အကြောင်း မိတ်ဆက် (Introduction to Flutter Widgets)
+*   Lesson 2: Basic Widgets (အခြေခံ Widgets များ)
+*   Lesson 3: Layout Widgets (Layout ချမှတ်ပေးတဲ့ Widgets များ)
+*   Lesson 4: Material Design Widgets (Material Design ပုံစံ Widgets များ)
+*   Lesson 5: Custom Widgets (ကိုယ်ပိုင် Widgets များကို တည်ဆောက်ခြင်း)
+
+**သင်ကြားပုံ သင်ကြားနည်း**
+
+ကျနော့်ရဲ့ သင်ကြားပုံ သင်ကြားနည်းကတော့ အဓိက အချက် (၃) ချက်ပေါ်မှာ အခြေခံထားပါတယ်။
+
+1.  **အခြေခံကစပြီး အဆင့်ဆင့် တက်သွားခြင်း (Step-by-Step Approach):**  လွယ်ကူတဲ့ အခြေခံ အကြောင်းအရာတွေကနေ စပြီး တဖြည်းဖြည်း ခက်ခဲတဲ့ အကြောင်းအရာတွေကို အဆင့်ဆင့် တက်သွားပါတယ်။ တစ်ခါသင်ရင်လည်း အပိုင်းတစ်ခုစီကို သေချာလေး နားလည်အောင် ရှင်းပြပေးပါတယ်။
+2.  **ဥပမာများနဲ့ ရှင်းလင်းခြင်း (Example-Based Learning):**  သင်ခန်းစာ တစ်ခုချင်းစီမှာ လက်တွေ့ ဥပမာ Code တွေ အများကြီး ထည့်သွင်း သင်ကြားပေးပါတယ်။ ဥပမာ Code တွေကို Run ကြည့်ပြီး ရလဒ်ကို မြင်တွေ့ရတာကြောင့် သင်ခန်းစာကို ပိုပြီး နားလည်လွယ်ကူစေပါတယ်။
+3.  **အသေးစိတ် ရှင်းလင်းခြင်းနဲ့ မေးခွန်းများကို အမြဲ ကြိုဆိုခြင်း (Detailed Explanation & Open to Questions):**  သင်ခန်းစာ တစ်ခုချင်းစီကို အသေးစိတ် ကျကျ ရှင်းပြပေးပါတယ်။ 
 
 **နောက်ပိုင်း သင်ခန်းစာတွေမှာ ဒီအကြောင်းအရာတွေကို တစ်ခုချင်းစီ အသေးစိတ် ရှင်းပြပေးသွားမှာ ဖြစ်ပါတယ်။**
 
