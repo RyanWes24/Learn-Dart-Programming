@@ -57,7 +57,7 @@
     ---
     
 
-**Chapter (4) - Object-Oriented Programming (OOP) အခြေခံ**
+**Chapter (3) - Function များ**
 
 - **Lesson 1: Functions တွေကို Define လုပ်ခြင်း**
     - Function ရဲ့ Syntax (Return Type, Function Name, Parameters, Body)
