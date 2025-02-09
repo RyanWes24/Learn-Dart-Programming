@@ -23,6 +23,7 @@ Function တစ်ခုဟာ အဓိက အပိုင်း (၃) ပိ�
 - **Function Body (Function ကိုယ်ထည်):** Function ရဲ့ အဓိက လုပ်ဆောင်ချက်တွေကို ရေးသားတဲ့ Code Block ဖြစ်ပါတယ်။ Function ကို Call လိုက်တဲ့အခါ Function Body ထဲက Code တွေ အစဉ်လိုက် လုပ်ဆောင်သွားမှာ ဖြစ်ပါတယ်။
 
 **Function တစ်ခုရဲ့ ပုံစံကို ရိုးရိုးရှင်းရှင်းနဲ့ ဥပမာပေးရမယ်ဆိုရင်:**
+![image](https://github.com/user-attachments/assets/7c5c9f11-41b1-47d8-9025-6d613af52cab)
 
 ပုံမှာ မြင်ရတဲ့အတိုင်း Function တစ်ခုဟာ **Black Box (အနက်ရောင် သေတ္တာ)** တစ်ခုနဲ့ တူပါတယ်။
 
