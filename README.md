@@ -57,7 +57,7 @@
     ---
     
 
-**Chapter (3) - Functions (လုပ်ဆောင်ချက်များ)**
+**[Chapter (3) - Functions (လုပ်ဆောင်ချက်များ)](https://github.com/RyanWes24/Learn-Dart-Programming/tree/main/Chapter%203)**
 
 *   Lesson 1: Functions ဆိုတာ ဘာလဲ? (What are Functions?)
 *   Lesson 2: Function Declaration (Function ကို Declare လုပ်ခြင်း)
