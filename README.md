@@ -57,7 +57,7 @@
     ---
     
 
-**Chapter 3: **- Functions များ**
+**Chapter (3) **- Functions များ**
 
 - **Lesson 1: Functions တွေကို Define လုပ်ခြင်း**
     - Function ရဲ့ Syntax (Return Type, Function Name, Parameters, Body)
