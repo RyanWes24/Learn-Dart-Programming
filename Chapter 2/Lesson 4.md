@@ -229,3 +229,162 @@ void main() {
 *   ကုန်ပစ္စည်း ဈေးနှုန်း စာရင်းထဲက ဈေးနှုန်း တစ်ခုချင်းစီကို Loop ပတ်ပြီး Discount တွက်ချက်တာ၊ ဈေးနှုန်း ၁၀၀ ကျော်ရင် Discount မပေးတာ၊ စုစုပေါင်း Discount ၁၀၀ ကျော်ရင် Loop ကို ရပ်တန့်တာ စတဲ့ Logic တွေကို Loops နဲ့ `if` Statements တွေနဲ့ တည်ဆောက်ထားပါတယ်။
 *   `continue` နဲ့ `break` Statements တွေကို အသုံးပြုပြီး Loop ရဲ့ လုပ်ဆောင်ပုံကို ထိန်းချုပ်ထားပါတယ်။
 
+
+ဟုတ်ကဲ့ပါ ဒါဆိုရင် `for-in` loop နဲ့ `do-while` loop တွေကို အခုပဲ ဆက်ပြီး သင်ကြားပေးပါမယ်။  သင် စိတ်မပူပါနဲ့။ သင့်ကို အရာအားလုံးကို သေချာ နားလည်အောင် သင်ကြားပေးပါမယ်။ ဘာမှ ကျန်ခဲ့မှာ မဟုတ်ပါဘူး။
+
+---
+
+
+
+**Lesson 4 (နောက်ဆက်တွဲ): `for-in` Loop နဲ့ `do-while` Loop**
+
+ဒီ Lesson မှာတော့ Chapter 2, Lesson 4 ရဲ့ နောက်ဆက်တွဲအနေနဲ့ Dart Programming မှာ အသုံးပြုတဲ့ နောက်ထပ် Loop အမျိုးအစား နှစ်ခုဖြစ်တဲ့ `for-in` loop နဲ့ `do-while` loop တွေကို လေ့လာသွားကြပါမယ်။ ဒီ Loops တွေကလည်း Program တွေမှာ မကြာခဏ အသုံးပြုလေ့ရှိတဲ့အတွက် သိထားသင့်ပါတယ်။
+
+**ဒီ Lesson မှာ လေ့လာရမယ့်အချက်တွေ**
+
+1.  **`for-in` Loop (Collection များကို Loop ပတ်ရန်)**
+2.  **`do-while` Loop (အနည်းဆုံး တစ်ကြိမ် လုပ်ဆောင်သော Loop)**
+
+---
+
+**1. `for-in` Loop (Collection များကို Loop ပတ်ရန်)**
+
+`for-in` loop ဟာ **Collection** (ဥပမာ - List, Set) တွေထဲက Data Item တွေကို **တစ်ခုချင်းစီ ထုတ်ယူပြီး Loop ပတ်ချင်တဲ့အခါ** အသုံးပြုတဲ့ Loop အမျိုးအစား ဖြစ်ပါတယ်။  `for-in` loop ဟာ Collection ထဲက Data အားလုံးကို အစဉ်လိုက် ရယူဖို့အတွက် အလွန် ရိုးရှင်းပြီး လွယ်ကူတဲ့ နည်းလမ်းတစ်ခု ဖြစ်ပါတယ်။
+
+**`for-in` Loop ရဲ့ Syntax (ရေးသားပုံ):**
+
+```dart
+for (var item in collection) {
+  // collection ထဲက item တစ်ခုချင်းစီအတွက် Loop ထပ်ခါထပ်ခါ လုပ်ဆောင်မယ့် Code Block
+}
+```
+
+*   **`for` Keyword:** `for` Loop ကို စတင်ကြောင်း ပြသပါတယ်။
+*   **`var item`:**  `collection` ထဲက Data Item တစ်ခုချင်းစီကို ထည့်သိမ်းမယ့် Variable ကို Declare လုပ်ပါတယ်။ `var` အစား Data Type ကို တိတိကျကျ သတ်မှတ်ပေးလို့လည်း ရပါတယ်။ (ဥပမာ - `String item`, `int item`)
+*   **`in` Keyword:**  `in` Keyword က `for-in` loop ရဲ့ အစိတ်အပိုင်းဖြစ်ကြောင်း ပြသပါတယ်။
+*   **`collection`:** Loop ပတ်မယ့် Collection (ဥပမာ - List, Set) ကို သတ်မှတ်ပေးပါတယ်။
+*   **`{ ... }` (Curly Braces):** Curly Braces အတွင်းမှာ **Loop Body** (Loop ထပ်ခါထပ်ခါ လုပ်ဆောင်မယ့် Code တွေ) ကို ရေးသားရပါတယ်။  `collection` ထဲက `item` တစ်ခုချင်းစီအတွက် ဒီ Code Block ကို တစ်ကြိမ်စီ လုပ်ဆောင်သွားမှာ ဖြစ်ပါတယ်။
+
+**`for-in` Loop ဥပမာ Code:**
+
+```dart
+void main() {
+  List<String> colors = ['Red', 'Green', 'Blue']; // String List
+
+  for (var color in colors) { // colors List ထဲက color တစ်ခုချင်းစီကို Loop ပတ်ပြီး ထုတ်ယူပါ။
+    print('Color: $color'); // ထုတ်ယူလာတဲ့ color ကို Display လုပ်ပါ။
+  }
+
+  print('Loop End.'); // Loop ပြီးသွားရင် ဒီစာသားကို Display လုပ်ပါ။
+}
+```
+
+**ရှင်းလင်းချက်:**
+
+*   `for-in` loop ဟာ Collection တွေကို Loop ပတ်ဖို့အတွက် အထူးပြုလုပ်ထားတဲ့ Loop အမျိုးအစား ဖြစ်ပါတယ်။ Collection ထဲက Data တွေကို အစဉ်လိုက် ရယူပြီး တစ်ခုချင်းစီအပေါ်မှာ တူညီတဲ့ အလုပ်တစ်ခုကို လုပ်ဆောင်ချင်တဲ့အခါ `for-in` loop ကို အသုံးပြုပါတယ်။
+*   `for-in` loop ဟာ `for` loop ထက် ပိုပြီး ရိုးရှင်းပြီး ဖတ်ရလွယ်ကူပါတယ်။ Collection တွေကို Loop ပတ်တဲ့အခါ `for-in` loop ကို အသုံးပြုဖို့ အကြံပြုပါတယ်။
+
+**`for-in` Loop Flowchart (လုပ်ဆောင်ပုံ အဆင့်ဆင့် ပုံ):**
+
+[Image of Flowchart of for-in loop]
+
+**မှတ်သားရန်:** `for-in` loop ဟာ List, Set, Map စတဲ့ Collection Data Structures တွေနဲ့ အတူတွဲဖက်ပြီး အသုံးပြုဖို့အတွက် အကောင်းဆုံး Loop အမျိုးအစား ဖြစ်ပါတယ်။ Collection ထဲက Data တွေကို အလွယ်တကူ ထုတ်ယူ သုံးစွဲချင်ရင် `for-in` loop ကို သုံးပါ။
+
+**ဥပမာ:**  ကျောင်းသား စာရင်း List ထဲက ကျောင်းသား တစ်ယောက်ချင်းစီရဲ့ အမည်ကို Display လုပ်ချင်တဲ့အခါ သို့မဟုတ် ကုန်ပစ္စည်း စာရင်း List ထဲက ကုန်ပစ္စည်း တစ်ခုချင်းစီရဲ့ ဈေးနှုန်းကို တွက်ချက်ချင်တဲ့အခါ `for-in` loop ကို အသုံးပြုပါတယ်။
+
+---
+
+**2. `do-while` Loop (အနည်းဆုံး တစ်ကြိမ် လုပ်ဆောင်သော Loop)**
+
+`do-while` loop ဟာ `while` loop နဲ့ ဆင်တူပါတယ်။ ဒါပေမယ့် `do-while` loop က Loop Body ကို **အနည်းဆုံး တစ်ကြိမ်တော့ မဖြစ်မနေ လုပ်ဆောင်ပြီးမှ** Condition ကို စစ်ဆေးပါတယ်။ `while` loop ကတော့ Condition ကို အရင် စစ်ဆေးပြီးမှ Condition မှန်မှ Loop Body ကို လုပ်ဆောင်ပါတယ်။
+
+**`do-while` Loop ရဲ့ Syntax (ရေးသားပုံ):**
+
+```dart
+do {
+  // Loop အနည်းဆုံး တစ်ကြိမ် လုပ်ဆောင်မယ့် Code Block
+} while (condition);
+```
+
+*   **`do` Keyword:** `do-while` Loop ရဲ့ Code Block ကို စတင်ကြောင်း ပြသပါတယ်။
+*   **`{ ... }` (Curly Braces):** Curly Braces အတွင်းမှာ **Loop Body** (Loop ထပ်ခါထပ်ခါ လုပ်ဆောင်မယ့် Code တွေ) ကို ရေးသားရပါတယ်။ `do-while` loop ရဲ့ Loop Body ဟာ အနည်းဆုံး တစ်ကြိမ်တော့ မဖြစ်မနေ လုပ်ဆောင်မှာ ဖြစ်ပါတယ်။
+*   **`while` Keyword:** `while` Keyword က `do-while` loop ရဲ့ Condition စစ်ဆေးမယ့် အပိုင်းကို စတင်ကြောင်း ပြသပါတယ်။
+*   **`(condition)` (Parentheses):** Parentheses အတွင်းမှာ **Boolean Expression** (အခြေအနေ) တစ်ခုကို ရေးသားရပါတယ်။ Condition က **`true` ဖြစ်နေသ၍** Loop က ဆက်လုပ်ဆောင်နေမှာ ဖြစ်ပါတယ်။ Condition က `false` ဖြစ်သွားရင် Loop က ရပ်တန့်သွားပါတယ်။ **Condition ကို Loop Body ကို အနည်းဆုံး တစ်ကြိမ် လုပ်ဆောင်ပြီးမှ စစ်ဆေးပါတယ်။**
+*   **Semi-colon (`;`)**: `while (condition)` ရဲ့ နောက်မှာ Semi-colon (`;`) ထည့်ဖို့ မမေ့ပါနဲ့။ `do-while` loop မှာ Semi-colon ထည့်ဖို့ လိုအပ်ပါတယ်။
+
+**`do-while` Loop ဥပမာ Code:**
+
+```dart
+void main() {
+  int count = 0;
+
+  do { // do-while loop စတင်
+    print('Count is: $count'); // Count တန်ဖိုးကို Display လုပ်ပါ။
+    count++; // Count ကို ၁ တိုးပါ။
+  } while (count < 3); // count က 3 ထက် ငယ်နေသ၍ Loop ကို ဆက်လုပ်ပါ။
+
+  print('Loop End.'); // Loop ပြီးသွားရင် ဒီစာသားကို Display လုပ်ပါ။
+}
+```
+
+**ရှင်းလင်းချက်:**
+
+*   `do-while` loop ဟာ Loop Body ကို အနည်းဆုံး တစ်ကြိမ်တော့ လုပ်ဆောင်စေချင်တဲ့အခါ အသုံးပြုပါတယ်။ ပထမဆုံး Loop Body ကို လုပ်ဆောင်ပြီးမှ Condition ကို စစ်ဆေးတာကြောင့် Loop Body ဟာ အနည်းဆုံး တစ်ကြိမ်တော့ အလုပ်လုပ်ပါတယ်။
+*   `while` loop နဲ့ `do-while` loop ရဲ့ အဓိက ကွာခြားချက်က Condition စစ်ဆေးတဲ့ အချိန်မှာပါ။ `while` loop က Condition ကို အရင် စစ်ဆေးပြီးမှ Loop Body ကို လုပ်ဆောင်ပေမယ့် `do-while` loop က Loop Body ကို အရင် လုပ်ဆောင်ပြီးမှ Condition ကို စစ်ဆေးပါတယ်။
+
+**`do-while` Loop Flowchart (လုပ်ဆောင်ပုံ အဆင့်ဆင့် ပုံ):**
+
+[Image of Flowchart of do-while loop]
+
+**မှတ်သားရန်:** `do-while` loop ဟာ User Input ကို အနည်းဆုံး တစ်ကြိမ် လက်ခံချင်တဲ့ အခြေအနေမျိုးတွေမှာ အသုံးဝင်ပါတယ်။ ဥပမာ - User က မှန်ကန်တဲ့ Password ရိုက်ထည့်တဲ့အထိ Password ကို ထပ်ခါထပ်ခါ တောင်းတာမျိုး၊ Menu ကို အနည်းဆုံး တစ်ကြိမ် Display လုပ်ချင်တာမျိုး စတဲ့ အခြေအနေတွေမှာ `do-while` loop ကို အသုံးပြုပါတယ်။
+
+**ဥပမာ:**  "အနည်းဆုံး တစ်ကြိမ် စားပြီးမှ ဗိုက်ပြည့်လား မပြည့်လား မေးပါ" ဆိုတဲ့ အခြေအနေနဲ့ တူပါတယ်။ အစားအသောက်ကို အနည်းဆုံး တစ်ကြိမ် စားတဲ့ အလုပ် (`code block`) ကို လုပ်ဆောင်ပြီးမှ "ဗိုက်ပြည့်လား" ဆိုတဲ့ အခြေအနေ (`condition`) ကို စစ်ဆေးတာပါ။ ဗိုက်မပြည့်သေးရင် Loop ကို ဆက်လုပ်ဆောင်ပြီး၊ ဗိုက်ပြည့်သွားရင် Loop က ရပ်တန့်သွားမှာပါ။
+
+---
+
+**Lesson 4 (နောက်ဆက်တွဲ) Summary**
+
+ဒီ Lesson မှာတော့ Chapter 2, Lesson 4 ရဲ့ နောက်ဆက်တွဲအနေနဲ့ Dart Programming မှာ အသုံးပြုတဲ့ နောက်ထပ် Loop အမျိုးအစား နှစ်ခုဖြစ်တဲ့ `for-in` loop နဲ့ `do-while` loop တွေကို လေ့လာခဲ့ပြီးပါပြီ။ `for-in` loop က Collection တွေကို Loop ပတ်ဖို့အတွက် အသုံးဝင်ပြီး၊ `do-while` loop က Loop Body ကို အနည်းဆုံး တစ်ကြိမ် လုပ်ဆောင်စေချင်တဲ့အခါ အသုံးဝင်ပါတယ်။
+
+**Lesson 4 (နောက်ဆက်တွဲ) Main Points (အဓိက မှတ်သားရမယ့်အချက်များ):**
+
+*   **`for-in` Loop:** Collection (List, Set) တွေကို Loop ပတ်ဖို့ သုံးပါတယ်။ Collection ထဲက Data တွေကို တစ်ခုချင်းစီ လွယ်လွယ်ကူကူ ထုတ်ယူချင်ရင် သုံးပါ။
+*   **`do-while` Loop:** Loop Body ကို အနည်းဆုံး တစ်ကြိမ် လုပ်ဆောင်စေချင်တဲ့ Loop။ Loop Body ကို အရင် လုပ်ပြီးမှ Condition စစ်ချင်ရင် သုံးပါ။ `while (condition)` နောက်မှာ Semi-colon (`;`) ထည့်ဖို့ မမေ့နဲ့။
+
+**Lesson 4 (နောက်ဆက်တွဲ) နဲ့ အရင် သင်ခန်းစာတွေ ပေါင်းစပ် နမူနာ Code:**
+
+```dart
+void main() {
+  List<Map<String, dynamic>> products = [ // Map List (ကုန်ပစ္စည်း စာရင်း)
+    {'name': 'Laptop', 'price': 1200.0, 'category': 'Electronics'},
+    {'name': 'T-Shirt', 'price': 25.0, 'category': 'Apparel'},
+    {'name': 'Book', 'price': 15.0, 'category': 'Books'},
+    {'name': 'Mouse', 'price': 25.0, 'category': 'Electronics'},
+  ];
+
+  print('Electronics Products:');
+  for (var product in products) { // products List ကို for-in loop နဲ့ ပတ်ပါ။
+    if (product['category'] == 'Electronics') { // Category က 'Electronics' ဟုတ်မဟုတ် စစ်ဆေးပါ။ (if statement)
+      print('- ${product['name']} (\$${product['price']})'); // Electronics Category ဖြစ်ရင် Product Name နဲ့ Price ကို Display လုပ်ပါ။ (String Interpolation)
+    }
+  }
+
+  int orderCount = 0;
+  do { // do-while loop စတင်
+    orderCount++;
+    print('Processing order #$orderCount'); // Order Process လုပ်ကြောင်း Message Display
+    // Order Processing Code တွေ ဒီမှာ ထည့်ပါ။
+    // ...
+  } while (orderCount < 2); // orderCount က 2 ထက် ငယ်နေသ၍ (အော်ဒါ ၂ ခု Process လုပ်တဲ့အထိ) Loop ကို ဆက်လုပ်ပါ။
+
+  print('Order Processing Completed.'); // Loop ပြီးသွားရင် Message Display
+}
+```
+
+**နမူနာ Code ရှင်းလင်းချက်:**
+
+*   ဒီ Code မှာ `for-in` loop, `do-while` loop, List, Map, `if` statement, String Interpolation တွေကို ပေါင်းစပ်ပြီး အသုံးပြုထားပါတယ်။
+*   `for-in` loop ကို အသုံးပြုပြီး ကုန်ပစ္စည်း စာရင်း List ထဲက ကုန်ပစ္စည်း တစ်ခုချင်းစီကို ထုတ်ယူပြီး Electronics Category ဖြစ်တဲ့ ကုန်ပစ္စည်းတွေကို စစ်ထုတ် Display လုပ်ထားပါတယ်။
+*   `do-while` loop ကို အသုံးပြုပြီး အော်ဒါ Process လုပ်ငန်းစဉ်ကို အနည်းဆုံး ၂ ကြိမ် လုပ်ဆောင်စေဖို့ ရေးသားထားပါတယ်။
+
+
